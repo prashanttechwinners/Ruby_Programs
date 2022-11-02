@@ -127,4 +127,12 @@ puts text1 + text2
 def double(x)
   x * 2
 end
-double 22 
+double 22
+
+#condition if/else
+a = 45
+a < 50 ? "Student is failed": 
+a >= 50 && a <= 60 ? "Student gets D grade" : 
+a >= 60 && a <= 70 ? "Student gets C grade" : 
+a >= 70 && a <= 80 ? "Student gets B grade" :
+a >= 80 && a <= 90 ? "Student gets A grade" : "Student gets A+ grade"
